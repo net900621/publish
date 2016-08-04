@@ -1,0 +1,15 @@
+{
+  "name": "shell",
+  "version": "0.1.0",
+  "description": "上线脚本",
+  "main": "update.js",
+  "dependencies": {
+    "line-reader": "^0.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yaoyao",
+  "license": "ISC",
+  "devDependencies": {}
+}

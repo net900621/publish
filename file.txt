@@ -1,0 +1,3 @@
+/Users/yaoyao/web/egret/hor/hornbill_apps/platform/views/head.html
+/Users/yaoyao/web/egret/hor/hornbill_apps/platform/views/component/picList.html
+/Users/yaoyao/web/egret/hor/hornbill_apps/platform/views/component/

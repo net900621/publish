@@ -1,0 +1,13 @@
+#!/usr/bin/expect -f
+set localdir [lindex $argv 0]
+set romotedir [lindex $argv 1]
+set timeout 20
+spawn scp $localdir root@ip:$romotedir
+expect {
+        "(yes/no)?"
+        {send "yes\n";exp_continue}
+        "password:"
+        {send "你的密码\n"}
+}
+interact
+exit
